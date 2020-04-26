@@ -31,9 +31,9 @@ deploy:
         env: HilbertBackend-env
         bucket_name: elasticbeanstalk-us-east-1-410645838764
         bucket_path: server-hilbert
-        on:
-                #branch: master
-                condition: push 
-                #repo: hilbert-hostel/backend
+        # on:
+                # branch: master
+                # condition: push 
+                # repo: hilbert-hostel/backend
         access_key_id: $AWS_ACCESS_KEY
         secret_access_key: $AWS_SECRET_KEY
